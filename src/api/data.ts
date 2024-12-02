@@ -52,7 +52,8 @@ export type ChangPasswordParams = {
 };
 
 export type DemoLoginParams = {
-  phoneNumber: string;
+  account?:string
+  phoneNumber?: string;
   areaCode: string;
   password: string;
 };

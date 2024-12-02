@@ -55,7 +55,6 @@ export const login = (params: DemoLoginParams) => {
       verifyCode: "666666",
       deviceID: "",
       platform: 5,
-      account: "",
     })
   );
 };

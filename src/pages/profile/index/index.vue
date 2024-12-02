@@ -1,7 +1,7 @@
 <template>
   <div class="page_container">
 
-    <img :src="bg" mode="" />
+    <img :src="bg" mode="" style="height: 10%;"/>
 
     <view class="w-[90%] h-[98px] rounded-md bg-white flex items-center pl-4 pr-2 mx-auto mt-[-60px]">
       <Avatar :size="46" :src="userStore.storeSelfInfo.faceURL" :desc="userStore.storeSelfInfo.nickname" />
